@@ -41,7 +41,7 @@
 
     .col {
       width: 45%;
-      margin-bottom: 4% ;
+      margin:0 0 4% 0;
     }
 
 
@@ -99,15 +99,22 @@
      label{
        width: 10%;
      }
+    
+    .box-skills img{
+       width: 70%;
+       height:auto;
+
+     }
+     .box-skills {
+       padding-left: 20%;
+
+     }
 
 }
 
 /* Small phones: from 0 to 480px  */
 
-    .col {
-      width: 100%;
-      margin-bottom: 4% ;
-    }
+  
 
 @media only screen and (max-width: 480px){
  .stickey .logo-name {
@@ -115,5 +122,10 @@
       float:left;
       margin-left: 15%;
     }
-
+      .stickey .mobile-nav-icon i {
+      margin-right: 20px;
+    }
+    .stickey .main-nav {
+      margin-left: 6%;
+    }
 }
